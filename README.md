@@ -1,4 +1,4 @@
 localizator
 ===========
 
-Sistemas de Cadastro de Localizações
+CRUD de Localizações
