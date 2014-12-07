@@ -12,6 +12,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+/**
+ * Classe Bean de Location
+ * @author Bion
+ *
+ */
 @Entity
 @Table
 public class Location implements Serializable {
