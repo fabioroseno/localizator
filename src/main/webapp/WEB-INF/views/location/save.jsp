@@ -22,61 +22,57 @@
 				<h2 style="text-align: center;">
 					<spring:message code="location.form.title" />
 				</h2>
-				<form:form class="form-horizontal" role="form" method="post"
-					id="location" commandName="location" action="/localizator/location/save">
-
-					<c:if test="${msg != null}">
-						<div class="form-group">
-							<label for="inputMsg" class="col-sm-3 control-label"> ${msg} </label>
-						</div>
-					</c:if>
-
+				<form id="location" name="location" class="form-horizontal" role="form" 
+					action="/localizator/location/save" method='POST'>
+					
 					<c:if test="${!empty location.id}">
 						<div class="form-group">
-							<label for="inputName" class="col-sm-3 control-label"> <spring:message
-									code="location.form.id" />
+							<label for="inputName" class="col-sm-3 control-label"> 
+								<spring:message code="location.form.id" />:
 							</label>
 							<div class="col-sm-7">
-								<form:input type="number" class="form-control" id="id" path="id" disabled="true" />
-								<form:errors path="name" cssClass="text-danger" />
+								<input id="id" name="id" class="form-control" type="number" disabled="disabled" value="${location.id}"/>
 							</div>
 						</div>
 					</c:if>
 
 					<div class="form-group">
-						<label for="inputName" class="col-sm-3 control-label"> <spring:message
-								code="location.form.name" />
+						<label for="inputName" class="col-sm-3 control-label">
+							<spring:message code="location.form.name" />:
 						</label>
 						<div class="col-sm-7">
-							<form:input type="text" class="form-control" id="name" path="name" />
-							<form:errors path="name" cssClass="text-danger" />
+							<input id="name" name="name" class="form-control" type="text" value="${location.name}" 
+								placeholder="<spring:message code="location.form.name"/>" required autofocus/>
 						</div>
 					</div>
 
 					<div class="form-group">
 						<label for="inputLatitude" class="col-sm-3 control-label">
-							<spring:message code="location.form.latitude" />
+							<spring:message code="location.form.latitude" />:
 						</label>
 						<div class="col-sm-7">
-							<form:input type="text" class="form-control" id="latitude" path="latitude" />
-							<form:errors path="latitude" cssClass="text-danger" />
+							<input id="latitude" name="latitude" class="form-control" type="text" value="${location.latitude}" 
+								placeholder="<spring:message code="location.form.latitude"/>" required/>
 						</div>
 					</div>
+					
 					<div class="form-group">
 						<label for="inputLongitude" class="col-sm-3 control-label">
-							<spring:message code="location.form.longitude" />
+							<spring:message code="location.form.longitude" />:
 						</label>
 						<div class="col-sm-7">
-							<form:input type="text" class="form-control" id="longitude" path="longitude" />
-							<form:errors path="longitude" cssClass="text-danger" />
+							<input id="longitude" name="longitude" class="form-control" type="text" value="${location.longitude}" 
+								placeholder="<spring:message code="location.form.longitude"/>" required/>
 						</div>
 					</div>
+					
 					<div class="col-sm-3 col-md-offset-5">
 						<button class="btn btn-primary btn-block" type="submit">
 							<spring:message code="location.form.button" />
 						</button>
 					</div>
-				</form:form>
+
+				</form>
 			</div>
 		</div>
 		
