@@ -15,7 +15,6 @@ import javax.validation.constraints.NotNull;
 /**
  * Classe Bean de Location
  * @author Bion
- *
  */
 @Entity
 @Table

@@ -8,6 +8,5 @@ hs_err_pid*
 .project
 
 #Pastas
+/.mtj.tmp/
 /target/
-
-.mtj.tmp/
