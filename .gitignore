@@ -1,12 +1,5 @@
-#Arquivos
-hs_err_pid*
-*.class
-*.jar
-*.war
-*.ear
 .classpath
 .project
-
-#Pastas
-/.mtj.tmp/
-/target/
+.gitignore
+/build
+/target

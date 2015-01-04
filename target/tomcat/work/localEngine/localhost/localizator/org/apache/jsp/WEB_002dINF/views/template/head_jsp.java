@@ -57,39 +57,39 @@ public final class head_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<meta charset=\"utf-8\">\n");
-      out.write("<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
-      out.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
-      out.write("<meta name=\"description\" content=\"Template for a Login and CRUD web aplication in Bootstrap using Servlets ans JSP's\">\n");
-      out.write("<meta name=\"author\" content=\"Eduardo Gonzalez\">\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<meta charset=\"utf-8\">\r\n");
+      out.write("<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n");
+      out.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
+      out.write("<meta name=\"description\" content=\"Template for a Login and CRUD web aplication in Bootstrap using Servlets ans JSP's\">\r\n");
+      out.write("<meta name=\"author\" content=\"Eduardo Gonzalez\">\r\n");
       out.write("<link rel=\"shortcut icon\" href=\"");
       if (_jspx_meth_c_005furl_005f0(_jspx_page_context))
         return;
-      out.write("\">\n");
-      out.write("\n");
+      out.write("\">\r\n");
+      out.write("\r\n");
       out.write("<title>");
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
-      out.write("</title>\n");
-      out.write("\n");
-      out.write("<!-- Bootstrap CSS / Theme / Template / JavaScript -->\n");
+      out.write("</title>\r\n");
+      out.write("\r\n");
+      out.write("<!-- Bootstrap CSS / Theme / Template / JavaScript -->\r\n");
       out.write("<link href=\"");
       if (_jspx_meth_c_005furl_005f1(_jspx_page_context))
         return;
-      out.write("\" rel=\"stylesheet\"/>\n");
+      out.write("\" rel=\"stylesheet\"/>\r\n");
       out.write("<link href=\"");
       if (_jspx_meth_c_005furl_005f2(_jspx_page_context))
         return;
-      out.write("\" rel=\"stylesheet\">\n");
+      out.write("\" rel=\"stylesheet\">\r\n");
       out.write("<link href=\"");
       if (_jspx_meth_c_005furl_005f3(_jspx_page_context))
         return;
-      out.write("\" rel=\"stylesheet\">\n");
-      out.write("<script src=\"https://code.jquery.com/jquery-1.10.2.min.js\"></script>\n");
+      out.write("\" rel=\"stylesheet\">\r\n");
+      out.write("<script src=\"https://code.jquery.com/jquery-1.10.2.min.js\"></script>\r\n");
       out.write("<script src=\"");
       if (_jspx_meth_c_005furl_005f4(_jspx_page_context))
         return;

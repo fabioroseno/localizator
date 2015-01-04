@@ -57,17 +57,17 @@ public final class navbar_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<div class=\"navbar navbar-inverse navbar-fixed-top\" role=\"navigation\">\n");
-      out.write("    <div class=\"container\">\n");
-      out.write("        <div class=\"navbar-header\">\n");
-      out.write("            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n");
-      out.write("                <span class=\"sr-only\">Toggle navigation</span>\n");
-      out.write("                <span class=\"icon-bar\"></span>\n");
-      out.write("            </button>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<div class=\"navbar navbar-inverse navbar-fixed-top\" role=\"navigation\">\r\n");
+      out.write("    <div class=\"container\">\r\n");
+      out.write("        <div class=\"navbar-header\">\r\n");
+      out.write("            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\r\n");
+      out.write("                <span class=\"sr-only\">Toggle navigation</span>\r\n");
+      out.write("                <span class=\"icon-bar\"></span>\r\n");
+      out.write("            </button>\r\n");
       out.write("            <a class=\"navbar-brand\" href=\"");
       if (_jspx_meth_c_005furl_005f0(_jspx_page_context))
         return;
@@ -75,35 +75,35 @@ public final class navbar_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write('>');
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
-      out.write("</a>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"navbar-collapse collapse\">\n");
-      out.write("            <ul class=\"nav navbar-nav\">\n");
+      out.write("</a>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"navbar-collapse collapse\">\r\n");
+      out.write("            <ul class=\"nav navbar-nav\">\r\n");
       out.write("                <li class=\"active\"><a href=\"#\">");
       if (_jspx_meth_spring_005fmessage_005f1(_jspx_page_context))
         return;
-      out.write("</a></li>\n");
+      out.write("</a></li>\r\n");
       out.write("                <li><a href=\"#about\">");
       if (_jspx_meth_spring_005fmessage_005f2(_jspx_page_context))
         return;
-      out.write("</a></li>\n");
+      out.write("</a></li>\r\n");
       out.write("                <li><a href=\"#contact\">");
       if (_jspx_meth_spring_005fmessage_005f3(_jspx_page_context))
         return;
-      out.write("</a></li>\n");
-      out.write("                <li class=\"dropdown\">\n");
+      out.write("</a></li>\r\n");
+      out.write("                <li class=\"dropdown\">\r\n");
       out.write("                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">");
       if (_jspx_meth_spring_005fmessage_005f4(_jspx_page_context))
         return;
-      out.write(" <b class=\"caret\"></b></a>\n");
-      out.write("                    <ul class=\"dropdown-menu\">\n");
-      out.write("                        <li><a href=\"?lang=pt_BR\">Português</a></li>\n");
-      out.write("                        <li><a href=\"?lang=en\">English</a></li>\n");
-      out.write("                    </ul>\n");
-      out.write("                </li>\n");
-      out.write("            </ul>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
+      out.write(" <b class=\"caret\"></b></a>\r\n");
+      out.write("                    <ul class=\"dropdown-menu\">\r\n");
+      out.write("                        <li><a href=\"?lang=pt_BR\">Português</a></li>\r\n");
+      out.write("                        <li><a href=\"?lang=en\">English</a></li>\r\n");
+      out.write("                    </ul>\r\n");
+      out.write("                </li>\r\n");
+      out.write("            </ul>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
       out.write("</div>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

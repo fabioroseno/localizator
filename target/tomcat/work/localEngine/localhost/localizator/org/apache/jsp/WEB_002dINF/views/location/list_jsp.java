@@ -66,76 +66,76 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("<!-- HEAD -->\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("<head>\r\n");
+      out.write("<!-- HEAD -->\r\n");
       if (_jspx_meth_c_005fimport_005f0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
-      out.write("\t<!-- NAVBAR -->\n");
+      out.write("\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
+      out.write("\t<!-- NAVBAR -->\r\n");
       out.write("\t");
       if (_jspx_meth_c_005fimport_005f1(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\n");
-      out.write("\t<!-- CONTAINER -->\n");
-      out.write("\t<div class=\"container theme-showcase\">\n");
-      out.write("\n");
-      out.write("\t\t<div class=\"jumbotron\">\n");
-      out.write("\t\t\t<h1>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t<!-- CONTAINER -->\r\n");
+      out.write("\t<div class=\"container theme-showcase\">\r\n");
+      out.write("\r\n");
+      out.write("\t\t<div class=\"jumbotron\">\r\n");
+      out.write("\t\t\t<h1>\r\n");
       out.write("\t\t\t\t");
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t\t\t</h1>\n");
-      out.write("\t\t\t<p>\n");
+      out.write("\r\n");
+      out.write("\t\t\t</h1>\r\n");
+      out.write("\t\t\t<p>\r\n");
       out.write("\t\t\t\t");
       if (_jspx_meth_spring_005fmessage_005f1(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t\t\t</p>\n");
-      out.write("\t\t\t<p>\n");
+      out.write("\r\n");
+      out.write("\t\t\t</p>\r\n");
+      out.write("\t\t\t<p>\r\n");
       out.write("\t\t\t\t<a href=\"");
       if (_jspx_meth_c_005furl_005f0(_jspx_page_context))
         return;
-      out.write("\" class=\"btn btn-primary\"\n");
+      out.write("\" class=\"btn btn-primary\"\r\n");
       out.write("\t\t\t\t\trole=\"button\">");
       if (_jspx_meth_spring_005fmessage_005f2(_jspx_page_context))
         return;
-      out.write(" &raquo;</a>\n");
-      out.write("\t\t\t\t \n");
+      out.write(" &raquo;</a>\r\n");
+      out.write("\t\t\t\t \r\n");
       out.write("\t\t\t\t<a href=\"");
       if (_jspx_meth_c_005furl_005f1(_jspx_page_context))
         return;
-      out.write("\" class=\"btn btn-primary\"\n");
+      out.write("\" class=\"btn btn-primary\"\r\n");
       out.write("\t\t\t\t\trole=\"button\">");
       if (_jspx_meth_spring_005fmessage_005f3(_jspx_page_context))
         return;
-      out.write(" &raquo;</a>\n");
-      out.write("\t\t\t</p>\n");
-      out.write("\t\t</div>\n");
-      out.write("\t\t\n");
-      out.write("\t\t<hr />\n");
-      out.write("\n");
+      out.write(" &raquo;</a>\r\n");
+      out.write("\t\t\t</p>\r\n");
+      out.write("\t\t</div>\r\n");
+      out.write("\t\t\r\n");
+      out.write("\t\t<hr />\r\n");
+      out.write("\r\n");
       out.write("\t\t");
       if (_jspx_meth_c_005fif_005f0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t\t<!-- FOOTER -->\n");
+      out.write("\r\n");
+      out.write("\t\t<!-- FOOTER -->\r\n");
       out.write("\t\t");
       if (_jspx_meth_c_005fimport_005f2(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t</div>\n");
-      out.write("</body>\n");
+      out.write("\r\n");
+      out.write("\t</div>\r\n");
+      out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
@@ -362,55 +362,55 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_005fif_005f0 = _jspx_th_c_005fif_005f0.doStartTag();
     if (_jspx_eval_c_005fif_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("\n");
-        out.write("\t\t\t<div class=\"row\">\n");
-        out.write("\t\t\t\t<!-- TABLES -->\n");
-        out.write("\t\t\t\t<h2>\n");
+        out.write("\r\n");
+        out.write("\r\n");
+        out.write("\t\t\t<div class=\"row\">\r\n");
+        out.write("\t\t\t\t<!-- TABLES -->\r\n");
+        out.write("\t\t\t\t<h2>\r\n");
         out.write("\t\t\t\t\t");
         if (_jspx_meth_spring_005fmessage_005f4(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t</h2>\n");
-        out.write("\t\t\t\t<div class=\"bs-example\">\n");
-        out.write("\t\t\t\t\t<table class=\"table table-bordered\">\n");
-        out.write("\t\t\t\t\t\t<thead>\n");
-        out.write("\t\t\t\t\t\t\t<tr>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t</h2>\r\n");
+        out.write("\t\t\t\t<div class=\"bs-example\">\r\n");
+        out.write("\t\t\t\t\t<table class=\"table table-bordered\">\r\n");
+        out.write("\t\t\t\t\t\t<thead>\r\n");
+        out.write("\t\t\t\t\t\t\t<tr>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f5(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
+        out.write("</th>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f6(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
+        out.write("</th>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f7(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
+        out.write("</th>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f8(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
+        out.write("</th>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f9(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
+        out.write("</th>\r\n");
         out.write("\t\t\t\t\t\t\t\t<th>");
         if (_jspx_meth_spring_005fmessage_005f10(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("</th>\n");
-        out.write("\t\t\t\t\t\t\t</tr>\n");
-        out.write("\t\t\t\t\t\t</thead>\n");
-        out.write("\t\t\t\t\t\t<tbody>\n");
+        out.write("</th>\r\n");
+        out.write("\t\t\t\t\t\t\t</tr>\r\n");
+        out.write("\t\t\t\t\t\t</thead>\r\n");
+        out.write("\t\t\t\t\t\t<tbody>\r\n");
         out.write("\t\t\t\t\t\t\t");
         if (_jspx_meth_c_005fforEach_005f0(_jspx_th_c_005fif_005f0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t\t\t</tbody>\n");
-        out.write("\t\t\t\t\t</table>\n");
-        out.write("\t\t\t\t</div>\n");
-        out.write("\t\t\t</div>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t</tbody>\r\n");
+        out.write("\t\t\t\t\t</table>\r\n");
+        out.write("\t\t\t\t</div>\r\n");
+        out.write("\t\t\t</div>\r\n");
         out.write("\t\t");
         int evalDoAfterBody = _jspx_th_c_005fif_005f0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -631,27 +631,27 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_005fforEach_005f0 = _jspx_th_c_005fforEach_005f0.doStartTag();
       if (_jspx_eval_c_005fforEach_005f0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
-          out.write("\t\t\t\t\t\t\t\t<tr>\n");
+          out.write("\r\n");
+          out.write("\t\t\t\t\t\t\t\t<tr>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td>");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location.id}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td><a href=\"");
           if (_jspx_meth_c_005furl_005f2(_jspx_th_c_005fforEach_005f0, _jspx_page_context, _jspx_push_body_count_c_005fforEach_005f0))
             return true;
           out.write('"');
           out.write('>');
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location.name}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write("</a></td>\n");
+          out.write("</a></td>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td>");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location.latitude}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td>");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location.longitude}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td>");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${location.created}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("\t\t\t\t\t\t\t\t\t<td><a href=\"");
           if (_jspx_meth_c_005furl_005f3(_jspx_th_c_005fforEach_005f0, _jspx_page_context, _jspx_push_body_count_c_005fforEach_005f0))
             return true;
@@ -659,8 +659,8 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
           out.write('>');
           if (_jspx_meth_spring_005fmessage_005f11(_jspx_th_c_005fforEach_005f0, _jspx_page_context, _jspx_push_body_count_c_005fforEach_005f0))
             return true;
-          out.write("</a></td>\n");
-          out.write("\t\t\t\t\t\t\t\t</tr>\n");
+          out.write("</a></td>\r\n");
+          out.write("\t\t\t\t\t\t\t\t</tr>\r\n");
           out.write("\t\t\t\t\t\t\t");
           int evalDoAfterBody = _jspx_th_c_005fforEach_005f0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

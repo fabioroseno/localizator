@@ -57,58 +57,58 @@ public final class _404_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("<!-- HEAD -->\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("<head>\r\n");
+      out.write("<!-- HEAD -->\r\n");
       if (_jspx_meth_c_005fimport_005f0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
-      out.write("\t<!-- CONTAINER -->\n");
-      out.write("\t<div class=\"container\">\n");
-      out.write("\n");
-      out.write("\t\t<div class=\"row\">\n");
-      out.write("\t\t\t<div class=\"span12 jumbotron\">\n");
-      out.write("\t\t\t\t<div class=\"hero-unit center\">\n");
-      out.write("\t\t\t\t\t<h1>\n");
+      out.write("\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
+      out.write("\t<!-- CONTAINER -->\r\n");
+      out.write("\t<div class=\"container\">\r\n");
+      out.write("\r\n");
+      out.write("\t\t<div class=\"row\">\r\n");
+      out.write("\t\t\t<div class=\"span12 jumbotron\">\r\n");
+      out.write("\t\t\t\t<div class=\"hero-unit center\">\r\n");
+      out.write("\t\t\t\t\t<h1>\r\n");
       out.write("\t\t\t\t\t\t");
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
-      out.write(" <small><font face=\"Tahoma\" color=\"red\">Error 404</font></small>\n");
-      out.write("\t\t\t\t\t</h1>\n");
-      out.write("\t\t\t\t\t<br />\n");
-      out.write("\t\t\t\t\t<p>\n");
+      out.write(" <small><font face=\"Tahoma\" color=\"red\">Error 404</font></small>\r\n");
+      out.write("\t\t\t\t\t</h1>\r\n");
+      out.write("\t\t\t\t\t<br />\r\n");
+      out.write("\t\t\t\t\t<p>\r\n");
       out.write("\t\t\t\t\t\t");
       if (_jspx_meth_spring_005fmessage_005f1(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t\t\t\t\t</p>\n");
-      out.write("\t\t\t\t\t<p>\n");
+      out.write("\r\n");
+      out.write("\t\t\t\t\t</p>\r\n");
+      out.write("\t\t\t\t\t<p>\r\n");
       out.write("\t\t\t\t\t\t<b>");
       if (_jspx_meth_spring_005fmessage_005f2(_jspx_page_context))
         return;
-      out.write(":</b>\n");
-      out.write("\t\t\t\t\t</p>\n");
+      out.write(":</b>\r\n");
+      out.write("\t\t\t\t\t</p>\r\n");
       out.write("\t\t\t\t\t<a href=\"");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${pageContext.request.contextPath}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-      out.write("\"\n");
-      out.write("\t\t\t\t\t\tclass=\"btn btn-large btn-info\"><i class=\"icon-home icon-white\"></i>\n");
+      out.write("\"\r\n");
+      out.write("\t\t\t\t\t\tclass=\"btn btn-large btn-info\"><i class=\"icon-home icon-white\"></i>\r\n");
       out.write("\t\t\t\t\t\t");
       if (_jspx_meth_spring_005fmessage_005f3(_jspx_page_context))
         return;
-      out.write(" </a>\n");
-      out.write("\t\t\t\t</div>\n");
-      out.write("\t\t\t</div>\n");
-      out.write("\t\t</div>\n");
-      out.write("\n");
-      out.write("\t</div>\n");
-      out.write("</body>\n");
+      out.write(" </a>\r\n");
+      out.write("\t\t\t\t</div>\r\n");
+      out.write("\t\t\t</div>\r\n");
+      out.write("\t\t</div>\r\n");
+      out.write("\r\n");
+      out.write("\t</div>\r\n");
+      out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

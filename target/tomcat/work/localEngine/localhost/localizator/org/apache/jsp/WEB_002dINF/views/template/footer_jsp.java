@@ -55,30 +55,30 @@ public final class footer_jsp extends org.apache.jasper.runtime.HttpJspBase
       out = pageContext.getOut();
       _jspx_out = out;
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<div class=\"well\">\n");
-      out.write("    <p align=\"center\">\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<div class=\"well\">\r\n");
+      out.write("    <p align=\"center\">\r\n");
       out.write("    <strong>");
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
       out.write("</strong>: ");
       if (_jspx_meth_spring_005fmessage_005f1(_jspx_page_context))
         return;
-      out.write(" - \n");
+      out.write(" - \r\n");
       out.write("    <strong>");
       if (_jspx_meth_spring_005fmessage_005f2(_jspx_page_context))
         return;
       out.write("</strong>: ");
       out.print( new java.util.Date() );
-      out.write(" - \n");
+      out.write(" - \r\n");
       out.write("    <strong>IP</strong>: ");
       out.print( Inet4Address.getLocalHost().getHostAddress());
-      out.write("\n");
-      out.write("    </p>\n");
+      out.write("\r\n");
+      out.write("    </p>\r\n");
       out.write("</div>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
