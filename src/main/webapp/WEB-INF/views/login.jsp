@@ -68,15 +68,13 @@ body {
 			</div>
 		</c:if>
 
-		<form class="form-signin" role="form"
-			action="<c:url value='j_spring_security_check' />" method='POST'>
+		<form class="form-signin" role="form" action="<c:url value='j_spring_security_check' />" method='POST'>
 			<h2 class="form-signin-heading" align="center">
 				<spring:message code="login.title" />
 			</h2>
-			<input type="text" name='j_username' class="form-control"
-				placeholder="<spring:message code="login.username"/>" required
-				autofocus> <input type="password" name='j_password'
-				class="form-control"
+			<input class="form-control" type="text" name='j_username'
+				placeholder="<spring:message code="login.username"/>" required autofocus>
+			<input class="form-control" type="password" name='j_password'				
 				placeholder="<spring:message code="login.password"/>" required>
 			<button class="btn btn-lg btn-primary btn-block" type="submit">
 				<spring:message code="login.button.login" />

@@ -1,5 +1,6 @@
+#Arquivos
 .classpath
 .project
-.gitignore
-/build
-/target
+#Pastas
+build/
+target/

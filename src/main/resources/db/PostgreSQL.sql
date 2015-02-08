@@ -55,7 +55,9 @@ CREATE INDEX user_roles_ix ON user_roles (user_role_id);
 
 /*** Inserts Users ***/ 
 INSERT INTO users (user_id, username, password, enabled) 
-VALUES (100, 'bion', '321ewq', true); 
+VALUES (100, 'trix', 'trix', true); 
+INSERT INTO users (user_id, username, password, enabled) 
+VALUES (101, 'bion', '321ewq', true); 
 
 INSERT INTO user_roles(user_role_id, user_id, authority) 
 VALUES (1, 100, 'ROLE_USER'); 
