@@ -150,10 +150,23 @@
 		</dependency>
 
 		<!-- MySQL Driver -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
+		</dependency> -->
+		
+		<!-- SQL Server Driver -->
+		<dependency>
+			<groupId>net.sourceforge.jtds</groupId>
+			<artifactId>jtds</artifactId>
+			<version>1.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.13</version>
 		</dependency>
 
 		<!-- Database connection pool - Tomcat-jdbc is best than common-jdbc -->
