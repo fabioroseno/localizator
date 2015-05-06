@@ -1,6 +1,8 @@
+#Pastas
+.settings/
+build/
+target/
+
 #Arquivos
 .classpath
 .project
-#Pastas
-build/
-target/
